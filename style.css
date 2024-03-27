@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	font-family: 'inter';
+}
+
+#logo {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#title-menutop {
+	margin-left: 50px;
+	margin-top: 75px;
+	font-size: 60px;
+}
+
+#sub-title {
+	margin-left: 50px;
+	margin-top: 15px;
+	padding-bottom: 75px;
+	font-size: 20px;
+}
+
+#menutop {
+	background-image: url(imgs/imagembg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+#menuinfo {
+	background-color: #F9F9F9;
+	display: grid;
+	grid-auto-flow: column;
+	columns: auto;
+}
+
+.icon {
+	margin: 70px 0px 70px 100px;
+	padding: 10px;
+}
+
+.secao {
+	display: grid;
+	align-items: center;
+}
+
+.text-title {
+	display: flex;
+	align-items: center;
+}
+
+.text-subtitle {
+	display: flex;
+	align-items: center;
+}
+
+#profile {
+	display: grid;
+	grid-auto-flow: column;
+	margin: 100px 0px 100px 100px;
+	align-items: center;
+}
+
+#title-profile {
+	width: 735px;
+	height: 161px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+#text-profile {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+#arrowleft {
+	display: none;
+}
+
+.arrow {
+	cursor: pointer;
+}
+
+.arrow:hover {
+	transform: translateY(-7px);
+	transition: 0.5ms;
+	transition-duration: 0.3s;
+}
+
+#imgmodelo2 {
+	display: none;
+}
+
+#bottom-form {	
+	height: 638px;
+	left: 0px;
+	top: 1478px;
+	text-align: center;
+	background: #303030;
+}
+
+#title-bottom {
+	font-size: 32px;
+	color: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+input {
+	width: 700;
+	height: 60px;
+	background: #FFFFFF;
+	margin: 25px;
+	border: 0px;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+button {
+	background-color: #C07212;
+	height: 50px;
+	width: 250px;
+	margin: 25px;
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #e68003;
+	color: white;
+	transform: translateY(-3px);
+	box-shadow: 0px 3px 7px #6b3b01;
+	transition-duration: 0.2s;
+}
